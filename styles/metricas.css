@@ -1,0 +1,21 @@
+.metricas__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-bottom: 96px;
+}
+
+.metricas__caixa {
+    width: 280px;
+}
+
+.metricas__caixa__item {
+    color: var(--vermelho);
+    font-size: 3.75rem;
+    padding-bottom: 0.25em;
+}
+
+.metricas__caixa__titulo {
+    padding: 0.5em 0;
+}

@@ -1,0 +1,30 @@
+@import url(styles/header.css);
+@import url(styles/sobre.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/formulario.css);
+
+:root {
+  --vermelho: #8e2424;
+  --vermelho-fundo: rgba(195, 25, 25, 0.08);
+  --branco: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 1em;
+}

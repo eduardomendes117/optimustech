@@ -1,0 +1,30 @@
+.depoimentos {
+    padding: 1em;
+}
+
+.depoimentos__container { 
+    background-color: var(--vermelho-fundo);
+    max-width: 1216px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 6em;
+    border-radius: 1em;
+    padding: 4em;
+}
+
+.depoimentos__subtitulo {
+    color: var(--vermelho);
+}
+
+.depoimentos__titulo {
+    font-size: 2.25em;
+    padding: 1em 0 2em 0;
+}
+
+.depoimentos__imagem {
+    padding-bottom: 1em;
+}
+
+.depoimentos__nome {
+    margin-bottom: 0.25em;
+}

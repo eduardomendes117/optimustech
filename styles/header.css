@@ -1,0 +1,48 @@
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 80px;
+}
+
+.cabeçalho__logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 0.5em;
+}
+
+.cabeçalho__navegação {
+  display: flex;
+  gap: 2em;
+}
+
+.cabeçalho__botões {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.cabeçalho__botões_register {
+  background-color: var(--vermelho);
+  border-radius: 0.5em;
+  color: var(--branco);
+  padding: 10px 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .cabeçalho__botões {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cabeçalho {
+    padding-inline: 2em;
+  }
+
+  .cabeçalho__navegação {
+    display: none;
+  }
+}

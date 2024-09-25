@@ -1,0 +1,40 @@
+.formulário {
+    text-align: center;
+    padding: 1em;
+    margin: 96px 0;
+}
+
+.formulário__titulo {
+    font-size: 2.25em;
+    padding-bottom: 20px;
+}
+
+.formulário__texto {
+    font-size: 1.25em;
+    padding-bottom: 0.5em;
+    color: rgba(102, 112, 133, 1);
+}
+
+.formulário__form {
+    margin: 2em 0;
+}
+
+.formulário__email {
+    width: 330px;
+    padding: 1em;
+    border: 1px solid rgba(234, 236, 240, 1);
+    border-radius: 0.5em;
+}
+
+.formulário__botão {
+    cursor: pointer;
+    background-color: var(--vermelho);
+    border-radius: 0.5em;
+    border: none;
+    color: var(--branco);
+    padding: 1em 1.25em;
+}
+
+.formulário__copy {
+    color: rgba(152, 162, 179, 1);
+}
